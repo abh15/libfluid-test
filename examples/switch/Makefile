@@ -1,7 +1,7 @@
 CXX=c++
 
 switch:
-	$(CXX) -g client/OFClient.cc client/base/BaseOFClient.cc packets.h *.hh *.cc -Iclient/base -lfluid_base -lfluid_msg -levent -levent_pthreads -lpcap -o switch
+	$(CXX) -g client/OFClient.cc client/base/BaseOFClient.cc packets.h *.hh *.cc -Iclient/base -lfluid_base -lfluid_msg -levent -levent_pthreads -lpthread -lpcap -o switch
 
 clean:
 	rm -f switch
