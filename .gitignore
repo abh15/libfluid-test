@@ -12,8 +12,6 @@
 *~
 *.pc
 
-libfluid_base
-libfluid_msg
 
 examples/controller/raw_controller
 examples/controller/msg_controller
